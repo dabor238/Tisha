@@ -3571,7 +3571,7 @@ iframe {
 }
 
 .v-align:before {
-    content: "";
+    /*content: "";*/
     margin-left: -4px
 }
 
