@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 
 /*! Bootstrap v3.3.5 (http://getbootstrap.com) Copyright 2011-2016 Twitter, Inc. Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */
 
@@ -3722,7 +3722,7 @@ iframe {
 
 .social-btns {
     margin-left: -5px;
-    margin-right: -5px;
+    margin-right: 35px;
     font-size: 0;
     line-height: 0;
     letter-spacing: -1px
@@ -3799,7 +3799,7 @@ iframe {
 }
 
 .start-screen__static-bg {
-    background-color: #252a2d
+    background-color: white;
 }
 
 .start-screen--slider .start-screen__content {
@@ -3999,7 +3999,7 @@ iframe {
 
 @media only screen and (min-width:992px) {
     .start-screen .title {
-        font-size: 5.5rem
+        font-size: 2.5rem
     }
 }
 
