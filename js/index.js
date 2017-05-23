@@ -14,7 +14,8 @@ $(document).ready(function () {
         var telefono = $('#txtTelefono').val();
         var texto = $('#txt').val();
 
-        if (nombre != "" && mail != "" && telefono != "") {
+        if (nombre != "" && (mail != "" | telefono != "")) {
+            $('#btnEnviar').text('Enviando...');
             var usuarioRequest = {
                 Nombre: nombre,
                 Email: mail,
@@ -33,6 +34,7 @@ $(document).ready(function () {
                 success: function (data) {
                     $('#formulario').hide();
                     $('#gracias').show('slow');
+                    $('#btnEnviar').text('Enviar');
                 },
                 error: function (xhr) {
                     alert('Problemas al ingresar los datos. Intente nuevamente.');
