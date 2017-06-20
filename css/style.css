@@ -3799,7 +3799,7 @@ iframe {
 }
 
 .start-screen__static-bg {
-    background-color: white;
+    background-color: black;
 }
 
 .start-screen--slider .start-screen__content {
@@ -3993,7 +3993,7 @@ iframe {
         font-size: 5rem
     }
     .start-screen form {
-        margin-top: 0
+        margin-top: 20px;
     }
 }
 
@@ -4200,7 +4200,7 @@ iframe {
         height: 80px;
         padding-top: 25px;
         padding-bottom: 25px;
-        background-color: #252a2d
+        background-color: black;
     }
     #top-bar__navigation-toggler {
         display: none

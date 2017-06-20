@@ -79,7 +79,7 @@
 						   </div>
 
 						   <div id="start-screen" class="start-screen start-screen--static-bg start-screen--static-bg--style-1">
-							   <div class="start-screen__static-bg parallax" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="300" data-stellar-offset-parent="true" style="background-image: url(img/3.jpg);"></div>
+							   <div class="start-screen__static-bg parallax" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="300" data-stellar-offset-parent="true"> <!--style="background-image: url(img/3.jpg);"--></div>
 
 							   <div class="start-screen__content-container">
 								   <div class="start-screen__content">
@@ -90,59 +90,51 @@
 													   <div class="col-xs-12 col-sm-7">
 														   <h2 class="title txtBorde">
 															   <!--Some awesome things in the World-->
-																Somos el único centro en Ecuador que te ofrece una revitalización celular completa. 
+																<!--Somos el único centro en Ecuador que te ofrece una revitalización celular completa.--> 
 														   </h2>
 														   <div class="videoWrapper">
-															   <iframe width="560" height="315" src="https://www.youtube.com/embed/Lz14uKHXFBw?ecver=1&amp;amp;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+															   <iframe width="560" height="315" src="https://www.youtube.com/embed/g901jOj5rGU?ecver=1&amp;amp;rel=0&amp;autoplay=1&controls=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
 															   <!--autoplay=1&-->
 														   </div>
-
 														   <!--<p>
 										<a class="start-screen__btn" href="#">Discover</a>
 									</p>-->
 													   </div>
 
-													   <div class="col-xs-12 col-sm-5 col-md-4 col-md-offset-1" id="formulario1">
-														   <form id="formulario">
+													   <div class="col-xs-12 col-sm-5 col-md-4 col-md-offset-1">
+														   <form class="formularioDiv">
 															   <div class="text">
-																   <h4 class="heading">Llene el Formulario y nos Contactaremos Contigo</h4>
-																   <p>
-																	   Al llenar el formulario tendrás el 20% de descuento en tu examen de diagnóstico.<br/> Costo Final Del Examen: $20 USD<br/>
-																   </p>
+																   <h4 class="heading">Registro</h4>
+																   <!--<p>
+																	   Al llenar el formulario tendrás el 20% de descuento en tu examen de diagnóstico.<br/> Costo Final Del Examen: $25 USD<br/>
+																   </p>-->
 															   </div>
-
 															   <label class="input-wrp">
-																   <input type="text" placeholder="Nombre y apellido" id="txtNombre" />
-
+																   <input type="text" placeholder="Su Nombre" id="txtNombre" />
 																   <i class="fontello-user"></i>
 															   </label>
-
-															   <label class="input-wrp">
+															   <!--<label class="input-wrp">
 																   <input type="text" placeholder="Correo electrónico" id="txtMail" />
-
 																   <i class="fontello-mail"></i>
-															   </label>
-
+															   </label>-->
 															   <label class="input-wrp">
-																   <input type="text" placeholder="Celular" id="txtTelefono" />
-
+																   <input type="number" placeholder="Teléfono" id="txtTelefono" />
 																   <i class="fontello-mobile"></i>
 															   </label>
-																<label class="input-wrp">
+																<!--<label class="input-wrp">
 																	<input type="text" placeholder="Sus síntomas" id="txt" />
-
 																	<i class="fontello-comment"></i>
-																</label>
+																</label>-->
 															   <!--<p class="note">*Nota: Bundle ends in two weeks from now.</p>-->
 
-															   <div class="btn-wrp">
-																   <button class="" type="submit" role="button" id="btnEnviar">Enviar</button>
+															   <div class="btn btn-wrp">
+																   <button class="enviando cambiarTxt" onclick="goog_report_conversion('http://bio-estacion.com/medicina-orthomolecular/')" type="submit" role="button" id="btnEnviar">Enviar</button>
 															   </div>
 														   </form>
-														   <form id="gracias">
+														   <form class="gracias">
 															   <h4 class="heading">Gracias por contactar a Bioestación. Nos contactaremos con usted lo antes posible.</h4>
-																 <div class="btn-wrp">
-																	 <button class="" type="submit" role="button" id="btnEnviarDos">Enviar otros datos</button>
+																 <div class="btn btn-wrp">
+																	 <button class="btnEnviarDos" type="submit" role="button">Enviar otros datos</button>
 																 </div>
 														   </form>
 													   </div>
@@ -156,31 +148,117 @@
 
 						   <main role="main">
 							   <!-- start section -->
-							   <a id="spy-services" class="ancor"></a>
+							   <!--<a id="spy-services" class="ancor"></a>
 							   <section class="section">
-								   <!--<div class="container">
+								   <div class="container">
 									   <div class="section-heading section-heading--left">
 										   <h2 class="title h1">Services & Propositions</h2>
 
 										   <p>Too deluxe going luscious hit. Deluxe pleasure does to. Coming all love today feel. Selfish settle zippy free action families exotic brand</p>
 									   </div>
-								   </div>-->
-							   </section>
+								   </div>
+							   </section>-->
 							   <!-- end section -->
+
+			 <section class="section" style="padding-top:60px!important;">
+				 <div class="container">
+					 <div class="section-heading section-heading--center  hidden-md hidden-lg">
+						 <h2 class="title h1">Sobre el Doctor y su tratamiento</h2>
+					 </div>
+
+					 <div class="row">
+						 <!--<div class="col-xs-12 col-sm-4 col-lg-3 col-sm-push-8 col-lg-push-9">
+					<img class="img-responsive center-block" src="img/img_2.png" alt="demo">
+				</div>-->
+						 <div class="col-lg-2 col-xs-1 col-sm-1"></div>
+						 <div class="col-lg-8 col-xs-10 col-sm-10">
+							 <div class="col-md-MB-30">
+								 <div class="section-heading section-heading--left  visible-md visible-lg" style="max-width:100%!important;">
+									 <h2 class="title h1 text-center">Sobre el Doctor y su tratamiento</h2>
+								 </div>
+							 </div>
+							 <div class="list-with-icon list-with-icon--style-3">
+								 <div class="list__inner">
+									 <div class="">
+										 <div>
+											 <p style="text-align:justify">
+												 <strong>
+													 Hola, soy Gustavo Robayo, médico cirujano especializado en regeneración celular y medicina ortomolecular.
+													 Si llegaste hasta esta página, es porque nosotros tenemos la solución específica para tu malestar.
+													 El examen que realizamos con tecnología europea, nos dará un resultado inmediato sobre el desgaste de sus órganos, más el diagnóstico médico con el cuál aplicaremos el protocolo específico para la nutrición y regeneración del órgano afectado.
+													 Al llenar el formulario de registro, tendrás un precio preferencial de $25 usd por la consulta + el examen de estrés oxidativo.
+													 <br />Te esperamos en Bioestación.
+												 </strong>
+											 </p>
+										 </div>
+									 </div>
+								 </div>
+							 </div>
+						 </div>
+						 <div class="col-lg-2 col-xs-1 col-sm-1"></div>
+					 </div>
+				 </div>
+			 </section>
+							   <!--formulario 2-->
+			<section>
+				<div class="row start-screen start-screen--static-bg start-screen--static-bg--style-1" style="height: 50vh!important;margin-left: 1px!important;margin-right:1px!important;">
+					<div class="col-md-4"></div>
+					<div class="col-md-4 col-xs-12 col-sm-12">
+						<form class="formularioDiv">
+							<div class="text">
+								<h4 class="heading">Registro</h4>
+								<!--<p>
+						Al llenar el formulario tendrás el 20% de descuento en tu examen de diagnóstico.<br/> Costo Final Del Examen: $25 USD<br/>
+					</p>-->
+							</div>
+							<label class="input-wrp">
+								<input type="text" placeholder="Su Nombre" id="txtNombre2" />
+								<i class="fontello-user"></i>
+							</label>
+							<!--<label class="input-wrp">
+					<input type="text" placeholder="Correo electrónico" id="txtMail" />
+					<i class="fontello-mail"></i>
+				</label>-->
+							<label class="input-wrp">
+								<input type="number" placeholder="Teléfono" id="txtTelefono2" />
+								<i class="fontello-mobile"></i>
+							</label>
+							<!--<label class="input-wrp">
+					<input type="text" placeholder="Sus síntomas" id="txt" />
+					<i class="fontello-comment"></i>
+				</label>-->
+							<!--<p class="note">*Nota: Bundle ends in two weeks from now.</p>-->
+
+							<div class="btn btn-wrp">
+								<button class="enviando cambiarTxt" onclick="goog_report_conversion('http://bio-estacion.com/medicina-orthomolecular/')" type="submit" role="button" id="btnEnviar2">Enviar</button>
+							</div>
+						</form>
+						<form class="gracias">
+							<h4 class="heading">Gracias por contactar a Bioestación. Nos contactaremos con usted lo antes posible.</h4>
+							<div class="btn btn-wrp">
+								<button class="btnEnviarDos" type="submit" role="button">Enviar otros datos</button>
+							</div>
+						</form>
+					</div>
+					<div class="col-md-4"></div>
+				</div>
+
+			</section>
+							   <!--fin formulario 2-->
 							   <!-- start section -->
 							   <a id="spy-about" class="ancor"></a>
-			 <section class="section section-about section-about--style-1 section--background-base">
+			 <!--<section class="section section-about section-about--style-1 section--background-base">
 				 <div class="container-fluid">
 					 <div class="section-heading section-heading--center section-heading--white  hidden-md hidden-lg">
 						 <h2 class="title h1">NUTRICIÓN CELULAR ESPECÍFICA</h2>
 
-						 <p><strong>Ofrecemos una Revitalización Celular Revolucionaria, que restaura las funciones biológicas del órgano del paciente, contrarrestando las manifestaciones del desgaste físico e intelectual.</strong></p>
+						 <p><strong>Una vida plena y sana al alcance de nuestras manos con la medicina Orthomolecular.</strong></p>
 					 </div>
 
 					 <div class="row">
 						 <div class="col-xs-12 col-md-6">
 							 <div class="img-place">
-								 <img class="center-block" src="img/img_5.png" tppabs="http://demo.artureanec.com/html/landium/img/img_5.png" alt="demo" />
+								 <img class="center-block" src="img/img_5.png" alt="demo" />
 							 </div>
 
 						 </div>
@@ -194,7 +272,7 @@
 								 <div class="section-heading section-heading--left section-heading--white  visible-md visible-lg">
 									 <h2 class="title h1">Nutrición celular específica</h2>
 
-									 <p><strong>Ofrecemos una Revitalización Celular Revolucionaria, que restaura con un altísimo grado de especificidad las funciones biológicas del paciente, contrarrestando las manifestaciones del desgaste físico e intelectual.</strong></p>
+									 <p><strong>Una vida plena y sana al alcance de nuestras manos con la medicina Orthomolecular.</strong></p>
 								 </div>
 							 </div>
 							 <p>Se trata de la primera línea de nutrientes esenciales orientados a un órgano en particular, obtenidos de proteínas, con métodos altamente definidos siguiendo Buenas Prácticas de Fabricación y de Control de calidad.</p>
@@ -205,7 +283,7 @@
 						 </div>
 					 </div>
 				 </div>
-			 </section>
+			 </section>-->
 							   <!-- end section -->
 							   <!-- start section -->
 							   <!--<a id="spy-testimonials" class="ancor"></a>
@@ -372,7 +450,7 @@
 											   <div class="contact__item clearfix">
 												   <i class="fontello-mail"></i>
 
-												   <a href="mailto:bioestacion.ecuador@gmail.com">bioestacion.ecuador@gmail.com</a>
+												   <a href="mailto:info@bio-estacion.com">info@bio-estacion.com</a>
 											   </div>
 										   </div>
 									   </div>
@@ -398,6 +476,38 @@
 							   <a id="btn-to-top" class="circled" href="javascript:void(0);" data-visible-offset="1000"></a>
 						   </div>
 
-						   <script type="text/javascript" src="js/main.min.js"></script>
+			<!-- Google Code for Datos-enviados Conversion Page
+	In your html page, add the snippet and call
+	goog_report_conversion when someone clicks on the
+	chosen link or button. -->
+			<script type="text/javascript">
+  /* <![CDATA[ */
+  goog_snippet_vars = function() {
+	var w = window;
+	w.google_conversion_id = 866867640;
+	w.google_conversion_label = "2RczCI7FoXIQuLOtnQM";
+	w.google_remarketing_only = false;
+  }
+  // DO NOT CHANGE THE CODE BELOW.
+  goog_report_conversion = function(url) {
+	goog_snippet_vars();
+	window.google_conversion_format = "3";
+	var opt = new Object();
+	opt.onload_callback = function() {
+	if (typeof(url) != 'undefined') {
+	  window.location = url;
+	}
+  }
+  var conv_handler = window['google_trackConversion'];
+  if (typeof(conv_handler) == 'function') {
+	conv_handler(opt);
+  }
+}
+/* ]]> */
+			</script>
+			<script type="text/javascript"
+					src="//www.googleadservices.com/pagead/conversion_async.js">
+			</script>
+
 					   </body>
 </html>
